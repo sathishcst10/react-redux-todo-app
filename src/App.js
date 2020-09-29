@@ -1,12 +1,16 @@
 import React from "react";
 import "./style.css";
 
+import Container from './Container.js'
+
 const App = ()=> {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand font-weight-bold" href="#">TODO APP</a>
+        </nav>
+        <Container/>
+    </>
   );
 }
 
